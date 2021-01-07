@@ -1,0 +1,53 @@
+$primary-color: #f0f4f8;
+$bg: #212121;
+
+body {
+	font-family: Verdana, Helvetica, sans-serif;
+	color: $primary-color;
+	background-color: $bg;
+	text-align: center;
+	margin: auto;
+	width: 70%;
+	max-width: 1000px;
+}
+
+.logo {
+	display: inline-block;
+	line-height: 0.1pt;
+	margin: 10pt;
+}
+
+.logoSubtitle {
+	text-align: right;
+}
+
+.GifResults {
+	text-align: left;
+}
+
+.SearchBar {
+	width: 50%;
+	font-size: 16pt;
+}
+
+.LoadMoreButton-container {
+	display: inline-block;
+	justify-content: center;
+}
+
+.LoadMoreButton {
+	background-color: #627d98; /* Green */
+	border: none;
+	color: white;
+	margin: 24pt;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+ }
+
+iframe {
+	border: none;
+	display: inline;
+}
